@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ragister</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="connect.php">
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="connect.php" method="post">
+        <h2>Ragister</h2>
+        <div class="input-field">
+          <input type="text" required class="form-control" id="firstname" name="firstname" />
+          <label>First name</label>
+        </div>
+
+        <div class="input-field">
+            <input type="text" required class="form-control" id="Lastname="Lastname" />
+            <label>Last name</label>
+          </div>
+
+        <div class="input-field">
+          <input type="text" required class="form-control" id="Email" name="Email"/>
+          <label>Email</label>
+        </div>
+
+        <div class="input-field">
+            <input type="password" required class="form-control" id="Password" name="Password" />
+            <label>Password</label>
+          </div>
+
+        <div class="forget">
+          <label for="remember">
+            <input type="checkbox" id="remember" />
+            <p>Accept Terms & Conditions</p>
+          </label>
+          
+        </div>
+        <button type="submit">Ragister</button>
+        <div class="register">
+          <p>Already have an account? <a href="#"> Login </a></p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
